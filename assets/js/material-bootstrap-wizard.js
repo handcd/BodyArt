@@ -29,18 +29,27 @@ $(document).ready(function(){
     // Code for the Validator
     var $validator = $('.wizard-card form').validate({
 		  rules: {
-		    nombre: {
-		      required: true,
-		      minlength: 3
-		    },
-		    apellido: {
-		      required: true,
-		      minlength: 3
-		    },
-		    email: {
-		      required: true,
-		      minlength: 3,
-		    }
+		    // nombre: {
+		    //   required: true,
+		    //   minlength: 3
+		    // },
+		    // apellido: {
+		    //   required: true,
+		    //   minlength: 3
+		    // },
+		    // email: {
+		    //   required: true,
+		    //   minlength: 3,
+		    // },
+      //       edad: {
+      //           required: true,
+      //       },
+      //       zip: {
+      //           required: true,
+      //       },
+      //       phone: {
+      //           required: true,
+      //       }
         },
 
         errorPlacement: function(error, element) {
